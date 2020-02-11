@@ -1,0 +1,23 @@
+.user{
+    display: flex;
+}
+.user__content{
+    padding-left: 9px;
+}
+.user__avatar{
+    width: 57px;
+    height: 57px;
+    background-color: $black;
+    border-radius: 50%;
+}
+.user__name{
+    font-weight: 1.06rem;
+    font-weight: 700;
+    color: $black;
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+.user__prof{
+    font-size: 0.8rem;
+    color: rgba(#2a2b2c, .7 );
+}

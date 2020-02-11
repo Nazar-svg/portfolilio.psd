@@ -1,0 +1,80 @@
+html {
+  font-size: 15px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #2B2A2C;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 1.2rem 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+}
+
+.user__content {
+  padding-left: 9px;
+}
+
+.user__avatar {
+  width: 57px;
+  height: 57px;
+  background-color: #2B2A2C;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-weight: 1.06rem;
+  font-weight: 700;
+  color: #2B2A2C;
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
+
+.user__prof {
+  font-size: 0.8rem;
+  color: rgba(42, 43, 44, 0.7);
+}
+
+.nav {
+  display: flex;
+  height: 100%;
+}
+
+.nav__link {
+  padding: 0.66rem 2rem;
+  font-size: 0.93rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2B2A2C;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+.nav__link:hover {
+  border-color: #2B2A2C;
+}
