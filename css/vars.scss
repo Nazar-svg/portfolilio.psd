@@ -2,3 +2,26 @@ $black: #2B2A2C;
 $grey:#6a696b;
 $white:#ffffff;
 $light-grey:#8d8d8e;
+
+
+
+@mixin btn {
+    margin-left: 2rem;
+    position: relative;
+     font-size: 0.93rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: $black;
+    
+
+    padding: 0.66rem 2rem;
+    border: 2px solid $black;
+    border-radius: 20px;
+    
+    &:hover{
+        background-color: $black;
+        color:$white;
+    }
+    
+}

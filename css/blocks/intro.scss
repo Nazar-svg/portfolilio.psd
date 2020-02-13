@@ -1,0 +1,29 @@
+.intro{
+    padding-top: 100px;
+}
+.intro__inner{
+    display: flex;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: .3); ;
+    padding-bottom: 120px;
+}
+.intro__content{
+    width: 50%;
+}
+.intro__photo{
+    width: 50%;
+}
+
+.intro__sabtaitle{
+    font-size: 2.13rem;
+    font-weight: 200;
+}
+
+.intro__title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.intro__prof{
+    font-size: 1.2rem;
+    color: rgba($color: #000000, $alpha: .6);
+}
