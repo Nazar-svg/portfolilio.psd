@@ -111,6 +111,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.06rem;
+  text-transform: uppercase;
+  color: #2B2A2C;
+  text-decoration: none;
+  line-height: 1.1;
+}
+.btn:focus {
+  outline: none;
+}
+
 .intro {
   padding-top: 100px;
 }
@@ -141,6 +159,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__prof {
+  margin-bottom: 25px;
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.social {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.social__link {
+  text-decoration: none;
+  margin-left: 10px;
+  transition: transform 0.3s linear;
+}
+.social__link:hover {
+  transform: translateY(-5px);
 }

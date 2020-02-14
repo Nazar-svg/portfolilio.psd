@@ -19,10 +19,10 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 
-// ----blocks-----
+
 @import "blocks/container";
 @import"blocks/header";
 @import"blocks/user";
 @import"blocks/nav";
-
+@import"blocks/buton";
 @import"blocks/intro";
