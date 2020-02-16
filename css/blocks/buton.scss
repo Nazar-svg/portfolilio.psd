@@ -1,9 +1,9 @@
 .buton {
     min-width: 70px;
 
-    padding: 0.99rem 2.15rem;
+    padding: 1em 1.7em;
     border: 1px solid $grey;
-    border-radius: 30px;
+    border-radius: 2em;
      text-align: center;
     
     font-size: 0.93rem;
@@ -30,5 +30,15 @@
     + .buton{
         margin-left: 1rem;
     }
+
+}
+
+// modifycation========================
+.buton--sm{
+    padding: 0.7em 1.3em;
+
+    font-size: 0.93rem;
+    border-width: 2px;
+    font-weight: 700;
 
 }
