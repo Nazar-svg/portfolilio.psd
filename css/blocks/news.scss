@@ -1,0 +1,22 @@
+.news{
+    margin-top: 15rem;
+}
+.news__header{
+    text-align: center;
+}
+
+.news__title{
+    margin-bottom: .2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $black ;
+}
+
+.text__news{
+    font-size: 1.2rem;
+    color:$light-grey ;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 3.7rem;
+}

@@ -396,6 +396,41 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.5;
 }
 
+.news {
+  margin-top: 15rem;
+}
+
+.news__header {
+  text-align: center;
+}
+
+.news__title {
+  margin-bottom: 0.2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2B2A2C;
+}
+
+.text__news {
+  font-size: 1.2rem;
+  color: #8d8d8e;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 3.7rem;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.articles__col {
+  width: 33.3333%;
+  padding: 0 1rem;
+}
+
 .text__center {
   text-align: center;
 }
