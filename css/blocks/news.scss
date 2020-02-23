@@ -1,5 +1,6 @@
 .news{
     margin-top: 15rem;
+    margin-bottom: 8rem;
 }
 .news__header{
     text-align: center;
@@ -19,4 +20,16 @@
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 3.7rem;
+}
+.news__foter{
+    text-align: right;
+    a{
+        font-size: .94rem;
+        color:$grey ;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
