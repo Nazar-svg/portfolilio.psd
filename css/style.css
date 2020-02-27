@@ -512,6 +512,63 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 2;
 }
 
+.footer {
+  padding: 1rem 0;
+  background-color: #2B2A2C;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__crediits {
+  display: flex;
+  text-align: center;
+}
+
+.footer__copiright {
+  font-size: 0.9rem;
+  color: #bbbbcc;
+  border-right: 1px solid rgba(106, 105, 107, 0.35);
+  padding-right: 0.8rem;
+  margin-right: 1rem;
+}
+
+.footer__social {
+  display: flex;
+  text-align: center;
+}
+.footer__social a {
+  margin-right: 1.2rem;
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+  font-size: 0.94rem;
+  align-items: center;
+}
+
+.footer__nav-link {
+  margin-left: 1.5rem;
+  color: #6a696b;
+  text-decoration: none;
+}
+.footer__nav-link:hover {
+  text-decoration: underline;
+}
+.footer__nav-link--btn {
+  padding: 0.6rem 1.4rem;
+  border-radius: 20px;
+  border: 1px solid #8d8d8e;
+}
+.footer__nav-link--btn:hover {
+  text-decoration: none;
+  background-color: #8d8d8e;
+  color: #ffffff;
+}
+
 .text__center {
   text-align: center;
 }

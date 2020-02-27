@@ -1,0 +1,60 @@
+.footer{
+    padding: 1rem 0;
+
+    background-color: $black;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__crediits{
+    display: flex;
+    text-align: center;
+}
+.footer__copiright{
+    font-size: 0.9rem;
+    color: #bbbbcc;
+
+    border-right: 1px solid rgba($color:$grey , $alpha:.35);
+    padding-right: 0.8rem;
+    margin-right: 1rem;
+}
+.footer__social{
+    display: flex;
+    text-align: center;
+     
+    a{
+        margin-right: 1.2rem;
+        text-decoration: none;
+    }
+}
+
+.footer__nav{
+    display: flex;
+    font-size: 0.94rem;
+    align-items: center;
+
+}
+.footer__nav-link{
+    margin-left: 1.5rem;
+    color: $grey;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+    &--btn {
+        padding: .6rem 1.4rem;
+        border-radius: 20px;
+         border: 1px solid $light-grey;
+         
+         &:hover{
+             text-decoration: none;
+             background-color:$light-grey ;
+             color:$white ;
+          
+         }
+
+    }
+}
